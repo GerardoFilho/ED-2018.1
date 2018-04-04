@@ -8,7 +8,7 @@ Com quem e como você fez?
 
 O que aprendeu e sabe fazer?
 
-    Aprendi melhor como funciona a recursão e um pouco da utilização de Vectors e classes.
+    Aprendi melhor como funciona a recursão e um pouco da utilização de Vectors, classes e as funções de c++.
 
 O que tem dificuldade ainda?
 
@@ -16,5 +16,5 @@ O que tem dificuldade ainda?
 
 Quanto tempo levou pra fazer a atividade?
 
-    3 dias
+   12 horas
 
