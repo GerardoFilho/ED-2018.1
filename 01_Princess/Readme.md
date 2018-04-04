@@ -8,7 +8,7 @@ Com quem e como você fez?
 
 O que aprendeu e sabe fazer?
 
-    Aprendi a usar lista e manipulá-la pra conseguir fazer a questão.
+    Aprendi a usar lista e manipulá-la pra conseguir fazer a questão e a usar as funçes de pop front e push back.
 
 O que tem dificuldade ainda?
 
@@ -16,6 +16,6 @@ O que tem dificuldade ainda?
 
 Quanto tempo levou pra fazer a atividade?
 
-    1 dia e meio
+    8 horas
 
 
