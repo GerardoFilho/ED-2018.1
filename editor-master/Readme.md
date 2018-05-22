@@ -16,4 +16,5 @@ O que tem dificuldade ainda?
 Quanto tempo levou pra fazer a atividade?
 
     +/- 6 horas
+    demorei para enviar pq eu nao tinha terminado tudo, entao achei que não precisava mandar algo que nao fiz completo.
 
