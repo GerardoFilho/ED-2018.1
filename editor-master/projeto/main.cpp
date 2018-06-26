@@ -29,10 +29,9 @@ struct Ambiente{
 int main()
 {
     Ambiente amb;
-    amb.texto.push_back('a');
-    amb.texto.push_back('m');
-    amb.texto.push_back('o');
-    amb.texto.push_back('r');
+
+    list<Ambiente> Z;
+    list<Ambiente> R;
 
     sf::RenderWindow janela(sf::VideoMode(800, 600), "Janela");
 
@@ -44,31 +43,45 @@ int main()
                 janela.close();
             if(event.type == sf::Event::KeyPressed){
                 if(event.key.control && (event.key.code == sf::Keyboard::Z)){
-                        cout << "control z" << endl;
+                cout << "control z" << endl;
+                R.push_back(amb);
+                                 if(!Z.empty()){
+                                     amb = Z.back();
+                                     Z.pop_back();
+               }
 
-                        
 
                 }
                 else if(event.key.control && (event.key.code == sf::Keyboard::R)){
                         cout << "control r" << endl;
-                }
+                        if(!R.empty()){
+                                                    amb = R.back();
+                                                    R.pop_back();
+                                                    amb.cursor=amb.texto.end();
+                        }
+                     }
                 else if((event.key.code >= sf::Keyboard::A) && (event.key.code <= sf::Keyboard::Z)){
                     char tecla = (event.key.code - sf::Keyboard::A) + 'a';
                     cout << tecla << endl;
                     amb.texto.insert(amb.cursor, tecla);
+                    Z.push_back(amb);
                 }
                 else if((event.key.code == sf::Keyboard::Return)){
                     cout << "enter" << endl;
                     amb.texto.insert(amb.cursor, '\n');
+                    Z.push_back(amb);
                 }
                 else if((event.key.code == sf::Keyboard::Space)){
                     cout << "espaco" << endl;
                     amb.texto.insert(amb.cursor, ' ');
+                    Z.push_back(amb);
                 }
                 else if(event.key.code == sf::Keyboard::BackSpace){
                     cout << "backspace" << endl;
 
-                    amb.texto.erase(amb.cursor++, amb.cursor--);
+                if(amb.cursor != amb.texto.begin())
+                    amb.cursor = amb.texto.erase( (prev) (amb.cursor++));
+
                 }
                 else if(event.key.code == sf::Keyboard::Delete){
                     cout << "delete" << endl;
@@ -102,7 +115,6 @@ int main()
     }
     return 0;
 }
-
 
 
 
