@@ -61,13 +61,14 @@ vector<Par> shuffle(vector<Par> vet){
 }
 
 void criar_lab(matchar &mat, vector<Par> &pilha){
+    //inicie uma pilha de pares, fure o primeiro elemento e coloque na pilha
     mat.get(Par(1,1)) = ABERTO;
     pilha.push_back(Par(1,1));
-
+//enquanto a pilha nao estiver vazia, faca
     while (pilha.size() != 0) {
         Par topo;
         topo = pilha.back();
-
+     
         vector<Par> vizinhos_fechados;
         for(Par par : getNeib(topo)){
             if(mat.get(par) == PAREDE){
