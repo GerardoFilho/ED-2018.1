@@ -1,16 +1,16 @@
 ﻿O que voce fez?
 
-Tentei fazer a remoção, inserção e procura de um Hash.
+Fiz o remove, insert e find do Hash.
 Com quem e como você fez?
 
-Fiz o codigo sozinho, baseando-se apenas na ideia do pseudocodigo que você deixou disponível no codigo
+Fiz o codigo sozinho, baseando-se apenas na ideia do pseudocodigo que você deixou disponível no codigo. fui desenrolando o resto sozinho, mas quando travava em umas partes, eu recorria a suas aulas para esclarecer melhor a abtração do codigo.
 O que aprendeu e sabe fazer?
 
-Compreendi como é o funcionamento do Hash linear
+  A logica e a compreensão de hash linear.
 O que tem dificuldade ainda?
 
-Na abstração do codigo, nao implementei direito, logo nao acho q está rodando, pois so tentei utilizar da logica de seu funcionamento.
+Na abstração do codigo.
 
 Quanto tempo levou pra fazer a atividade?
 
-2 horas
+3 horas
