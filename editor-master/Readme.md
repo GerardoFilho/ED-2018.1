@@ -4,17 +4,17 @@ O que voce fez?
 
 Com quem você fez?
 
-    Fiz sozinho até onde consegui fazer.
+    Fiz sozinho mas recebi ajuda na solução do Ctrl + Z e ctrl + R para resolvela usando uma list de ambiente.
     
 
 O que aprendeu e sabe fazer?
-	Aprendi a implementar o backspace, enter, delete, pegar uma tecla do keyboard pro editor e morrer o cursor corretmente.
+	Aprendi a implementar o backspace, enter, delete, pegar uma tecla do keyboard pro editor e mover o cursor corretmente utilizando iteradores.
 
 O que tem dificuldade ainda?
-	Em implementar o Ctrl + Z e Ctrl + R. Não consegui fazer por não ter pego a logica.
+	Em conseguir enxergar onde o codigo vai perder a referencia, pois me baseio muito se o codigo roda e se deu tudo certo, entao quando isso acontece acabo deixando isso passar despercebido.
 
 Quanto tempo levou pra fazer a atividade?
 
     +/- 6 horas
-    demorei para enviar pq eu nao tinha terminado tudo, entao achei que não precisava mandar algo que nao fiz completo.
+    
 
